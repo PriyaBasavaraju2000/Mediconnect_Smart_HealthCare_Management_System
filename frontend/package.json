@@ -1,0 +1,27 @@
+{
+  "name": "mediconnect-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "axios": "^1.6.2",
+    "sockjs-client": "^1.6.1",
+    "@stomp/stompjs": "^7.0.0",
+    "react-hot-toast": "^2.4.1",
+    "date-fns": "^3.0.6",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
